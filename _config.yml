@@ -1,0 +1,21 @@
+# Site settings
+title: benjayingly
+header-img: img/home-bg.png
+email: fakebenjay@gmail.com
+copyright_name: fakebenjay
+description: > # this means to ignore newlines until "baseurl:"
+  this blog was named after Mad Libs, but it sounds hip & techy, right??
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: FakeBenJay
+github_username:  fakebenjay
+learn_profile: fakebenjay
+email_username: fakebenjay@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
