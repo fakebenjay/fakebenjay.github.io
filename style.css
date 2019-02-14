@@ -1,4 +1,9 @@
-.container {
-    text-align: center;
-    width: 100%;
+html {
+    scroll-behavior: smooth;
 }
+
+/* .content {
+    padding-top: 96px;
+    height: 100%;
+    overflow: auto;
+} */
