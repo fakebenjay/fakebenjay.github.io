@@ -17,7 +17,19 @@ header {
     align-items: center;
 }
 
-.navbar {
+.proj {
+    align-items: center;
+}
+
+.proj .desc {
+    visibility: hidden
+}
+
+.proj:hover .desc {
+    visibility: visible;
+}
+
+.kulturista {
     font-family: kulturista-web, serif;
 }
 
