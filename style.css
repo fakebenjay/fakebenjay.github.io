@@ -8,6 +8,8 @@
     src: url("pontiac inline inside.otf");
 }
 
+section {}
+
 html {
     scroll-behavior: smooth;
 }
@@ -15,6 +17,7 @@ html {
 header {
     display: flex;
     align-items: center;
+    z-index: 100;
 }
 
 .proj {
@@ -22,11 +25,35 @@ header {
 }
 
 .proj .desc {
-    visibility: hidden
+    opacity: 0;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.proj:hover {
+    z-index: 5;
 }
 
 .proj:hover .desc {
-    visibility: visible;
+    opacity: 1;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.proj-row {
+    height: 46vh;
+}
+
+.text {
+    overflow: hidden;
+    max-height: 75%;
+    padding-bottom: 1rem;
 }
 
 .kulturista {
