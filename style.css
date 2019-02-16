@@ -53,7 +53,8 @@ section {
 }
 
 .proj:hover .desc,
-.proj:focus .desc {
+.proj:focus .desc,
+.proj:active .desc {
     opacity: 1;
     -o-transition: .5s;
     -ms-transition: .5s;
