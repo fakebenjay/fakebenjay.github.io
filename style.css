@@ -52,11 +52,7 @@ section {
     transition: .5s;
 }
 
-.proj:active {
-    z-index: 5;
-}
-
-.proj:active .desc {
+.proj:hover .desc {
     opacity: 1;
     -o-transition: .5s;
     -ms-transition: .5s;
