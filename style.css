@@ -1,14 +1,27 @@
 @font-face {
-    font-family: "pontiac-inline-regular";
-    src: url("pontiac inline regular.otf");
+    font-family: "overpass-regular";
+    src: url("overpass-regular.otf");
 }
 
 @font-face {
-    font-family: "pontiac-inline-inside";
-    src: url("pontiac inline inside.otf");
+    font-family: "overpass-bold";
+    src: url("overpass-bold.otf");
 }
 
-section {}
+@font-face {
+    font-family: "overpass-extrabold-italic";
+    src: url("overpass-extrabold-italic.otf");
+}
+
+@font-face {
+    font-family: "overpass-extrabold";
+    src: url("overpass-extrabold.otf");
+}
+
+@font-face {
+    font-family: "overpass-extralight";
+    src: url("overpass-extralight.otf");
+}
 
 html {
     scroll-behavior: smooth;
@@ -20,8 +33,14 @@ header {
     z-index: 100;
 }
 
+section {
+    margin-top: -4.2rem;
+    padding-top: 4.2rem;
+}
+
 .proj {
     align-items: center;
+    overflow: hidden;
 }
 
 .proj .desc {
@@ -52,7 +71,6 @@ header {
 
 .text {
     overflow: hidden;
-    max-height: 75%;
     padding-bottom: 1rem;
 }
 
@@ -60,19 +78,28 @@ header {
     font-family: kulturista-web, serif;
 }
 
-.namebar {
-    font-family: 'pontiac-inline';
-    position: 'relative';
+.overpass-bold {
+    font-family: overpass-bold, sans-serif;
+}
+
+.overpass-regular {
+    font-family: overpass-regular, sans-serif;
+}
+
+.overpass-extrabold-italic {
+    font-family: overpass-extrabold-italic, sans-serif;
+}
+
+.overpass-extrabold {
+    font-family: overpass-extrabold, sans-serif;
+}
+
+.overpass-extralight {
+    font-family: overpass-extralight, sans-serif;
 }
 
 #logo {
     max-height: 2rem;
-}
-
-#overlay {
-    background-color: #F70100;
-    position: absolute;
-    z-index: 100;
 }
 
 :root {
@@ -85,6 +112,12 @@ header {
     --spacing-extra-large: 4rem;
     --spacing-extra-extra-large: 8rem;
     --spacing-extra-extra-extra-large: 16rem;
+}
+
+@media screen and (max-width: 20em) {
+    .text {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 30em) {
