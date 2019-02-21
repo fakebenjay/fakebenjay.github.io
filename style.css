@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: "overpass-italic";
+    src: url("overpass-italic.otf");
+}
+
+@font-face {
     font-family: "overpass-bold";
     src: url("overpass-bold.otf");
 }
@@ -93,6 +98,10 @@ p.app-bullet {
     font-family: overpass-regular, sans-serif;
 }
 
+.overpass-italic {
+    font-family: overpass-italic, sans-serif;
+}
+
 .overpass-extrabold-italic {
     font-family: overpass-extrabold-italic, sans-serif;
 }
@@ -105,12 +114,20 @@ p.app-bullet {
     font-family: overpass-extralight, sans-serif;
 }
 
+.contact-link {
+    text-decoration: none;
+}
+
 #logo {
     max-height: 2rem;
 }
 
 div.resume-section-head {
     overflow-y: hidden;
+}
+
+img.social-icons {
+    max-height: 40px;
 }
 
 :root {
