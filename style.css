@@ -38,6 +38,14 @@ section {
     padding-top: 4.2rem;
 }
 
+p {
+    display: inline-block;
+}
+
+p.app-bullet {
+    margin-top: 0;
+}
+
 .proj {
     align-items: center;
     overflow: hidden;
