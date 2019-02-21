@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/ldj2tnr.css" />
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="heading-lines.css" />
     <script type="text/javascript" src="logo.js"></script>
     <title>Ben Jay // Web Development & Journalism</title>
   </head>
@@ -25,7 +26,7 @@
     </header>
     <br>
     <div class="content pt45-ns pt45 overpass-regular">
-      <section id="projects">
+      <section id="projects" class="w-100">
         <div class="proj-row tc center cf">
           <div class="proj fl w-100 w-third-l w-50-m hide-child h-100 cover tc" style="background-image:url('background-images/water-tank.png');">
             <div class="desc w-100 h-100 pa3 white bg-black-60 dt center" onclick="void(0)">
@@ -103,30 +104,49 @@
         </div>
       </section>
       <section id="about" class="w-100">
-        <h1 class="overpass-extrabold">Hello</h1>
+        <h1 class="pa3 f1 overpass-extrabold-italic w-100 white mt0 mb1" style="background-color: #E44041">About</h1>
+        <!--  //   -->
+        <div id="about-wrapper" class="mb2 center tc dt">
+          <div class="w-40-ns w-100 ph5-l pr4-m pl0-m ph3 tl dib v-mid">
+            <p>Ben Jay is a Brooklyn-based web developer and journalist, specializing in data reporting. After working for a number of years as a writer and photographer, Ben enrolled in Flatiron School's web
+              development
+              bootcamp, and later applied the
+              technical skills he learned there to journalism at the Craig Newmark Graduate School of Journalism at CUNY, where he earned his Master's Degree. He strongly believes in the power of data as a reporting tool, and strives to use data and
+              interactives to tell stories in new and unique ways, without sacrificing their essential news value. His favorite topics to cover include politics and government administration, health and science, and the areas where they intersect.
+              When
+              he isn't parsing CSVs, he enjoys cycling, drinking overpriced beer, and hanging out with his fiancée, Emily, and their cat, Luna.</p>
+
+            <p>His work has appeared in The New York Times, City & State New York, Deadspin, Gothamist, Cannabis Wire, Edible, Serious Eats, DNAinfo, Village Voice and others. He's also a <a target="_blank" href="http://instagram.com/fakebenjay">skilled</a>
+              <a target="_blank" href="https://www.instagram.com/p/BnWoIDwhZKx/">event photographer</a> and <a target="_blank" href="http://benjayphoto.com">photojournalist</a>.</p>
+          </div>
+          <img id="me" class="w-30-l w-40-m w-80 dib v-mid" src="portrait/bj-photo-2.png">
+        </div>
       </section>
       <section id="resume" class="w-100">
+        <h1 class="pa3 f1 overpass-extrabold-italic w-100 white mt0 mb1" style="background-color: #1D8679">Resume</h1>
         <div class="resume w-100 center w-80-ns">
-          <div class="bg-lightest-blue black w-100 ph3 pv1 overpass-bold mh0">SUMMARY</div>
+          <div class="bg-lightest-blue black w-100 ph3 pv1 overpass-bold mh0 resume-section-head">SUMMARY</div>
           <p class="ph3 mv2 overpass-extralight">Accomplished web developer and journalist, specializing in data reporting, with varied programming skills and an M.A. in journalism. Unique affinity for synthesing large volumes of data into
             digestible
             formats, telling stories through written articles, as well as interactive and static visualizations, recent examples referenced below.</p>
-          <div class="bg-lightest-blue black w-100 ph3 pv1 overpass-bold mh0">SKILLS</div>
-          <p class="ph3 mv2 overpass-extralight"><strong class="overpass-regular">Coding: </strong>JavaScript, D3, React/Redux, jQuery, Lodash, Python, Django, Jupyter Notebooks, Pandas, Scraping (Nokogiri, BeautifulSoup), Ruby, Rails, Sinatra, AWS,
+          <div class="bg-lightest-blue black w-100 ph3 pv1 overpass-bold mh0 resume-section-head">SKILLS</div>
+          <p class="ph3 mv2 overpass-extralight"><strong class="overpass-regular">Coding: </strong>JavaScript, D3, React/Redux, jQuery, Lodash, Python, Django, Jupyter Notebooks, Pandas, Scraping (Nokogiri, BeautifulSoup), Ruby, Rails, Sinatra,
+            AWS,
             SQLite, PostgreSQL,
             HTML, CSS, Git, Google
             Maps JS API, Mapbox GL JS API</p>
           <p class="ph3 mv2 overpass-extralight"><strong class="overpass-regular">Software: </strong>Photoshop, InDesign, Lightroom, Premiere, After Effects, Illustrator, Final Cut Pro, Movable Type, Pro Tools, Hindenburg, DAVID Systems</p>
-          <div class="bg-lightest-blue black w-100 ph3 pv1 overpass-bold mh0">EDUCATION</div>
-          <p class="ph3 mv2"><strong>CUNY Graduate School of Journalism (New York, NY)</strong></p>
-          <p class="ph3 mv2 fr">M.A. Journalism, <em>December 2018</em></p>
+          <div class="bg-lightest-blue black w-100 ph3 pv1 overpass-bold mh0 resume-section-head">EDUCATION</div>
+          <p class="ph3 mv2-l mb0-m mb0 w-100-m"><strong>CUNY Graduate School of Journalism (New York, NY)</strong></p>
+          <p class="ph3 mv2-l mt0-m mt0 fr tr w-100-m">M.A. Journalism, <em>December 2018</em></p>
           <br>
-          <p class="ph3 mv2"><strong>SUNY Geneseo (Geneseo, NY)</strong></p>
-          <p class="ph3 mv2 fr">B.A. International Relations, <em>May 2012</em></p>
+          <p class="ph3 mv2-l mb0-m mb0 w-100-m"><strong>SUNY Geneseo (Geneseo, NY)</strong></p>
+          <p class="ph3 mv2-l mt0-m mt0 fr tr w-100-m">B.A. International Relations, <em>May 2012</em></p>
           <br>
-          <p class="ph3 mv2"><strong>Flatiron School (New York, NY)</strong></p>
-          <p class="ph3 mv2 fr">B.A. International Relations, <em>February to April 2017</em></p>
-          <div class="bg-lightest-blue black w-100 ph3 pv1 overpass-bold mh0">TECHNICAL PROJECTS <small>(MORE AT <a target="_blank" href="http://github.com/fakebenjay">GITHUB.COM/FAKEBENJAY)</a></small></div>
+          <p class="ph3 mv2-l mb0-m mb0 w-100-m"><strong>Flatiron School (New York, NY)</strong></p>
+          <p class="ph3 mv2-l mt0-m mt0 fr tr w-100-m">Full Stack Web Development Immersive Program, <em>February to April 2017</em></p>
+          <br>
+          <div class="bg-lightest-blue black w-100 ph3 pv1 overpass-bold mh0 resume-section-head">TECHNICAL PROJECTS <small>(MORE AT <a target="_blank" href="http://github.com/fakebenjay">GITHUB.COM/FAKEBENJAY)</a></small></div>
           <p class="ph3 mv2"><strong>NYC Water Tank Inspection Results 2015-2017: </strong><a target="_blank" href="https://cityandstateny.com/new-york-city-water-tank-inspection-results">https://cityandstateny.com/new-york-city-water-tank-inspection-results</a></p>
           <p class="app-bullet ph3 mv2 overpass-extralight">• We believe this is the first ever centralized directory of NYC’s rooftop water tanks, which provide much of the city’s water.</p>
           <p class="app-bullet ph3 mv2 overpass-extralight">• Visualized tank inspection data from a FOIL request and building data from the city’s PLUTO land use database.</p>
@@ -136,15 +156,15 @@
           <p class="ph3 mv2"><strong>Crowded Runways: </strong><a target="_blank" href="http://benjayingly.com/crowded-runways/">http://benjayingly.com/crowded-runways/</a> (GitHub: <a target="_blank" href="http://bit.ly/2xAZkaF">http://bit.ly/2xAZkaF)</a></p>
           <p class="app-bullet ph3 mv2 overpass-extralight">• Visualized taxiing times for domestic flights across the United States, dating back to 1995.</p>
           <p class="app-bullet ph3 mv2 overpass-extralight">• Parsed CSV data from the federal Department of Transportation using Ruby. Visualized data using D3.</p>
-          <div class="bg-lightest-blue black w-100 ph3 pv1 overpass-bold mh0">RELEVANT EXPERIENCE</div>
-          <p class="ph3 mv2"><strong>Cannabis Wire</strong></p>
-          <p class="ph3 mv2 fr"><em>June 2018 to Present</em></p>
+          <div class="bg-lightest-blue black w-100 ph3 pv1 overpass-bold mh0 resume-section-head">RELEVANT EXPERIENCE</div>
+          <p class="ph3 mv2"><strong>Cannabis Wire (Civil Media)</strong></p>
+          <p class="ph3 mv2 fr tr"><em>June 2018 to Present</em></p>
           <p class="app-bullet ph3 mv2 overpass-extralight"><em>Data and Development</em> – Recruited to build internal reporting tools for national distribution; provide data-oriented stories for a Civil Media startup covering cannabis policy and
             economics
             in the United States and around the world.</p>
           <br>
           <p class="ph3 mv2"><strong>Freelance Journalist and Photographer</strong></p>
-          <p class="ph3 mv2 fr"><em>December 2009 to Present</em></p>
+          <p class="ph3 mv2 fr tr"><em>December 2009 to Present</em></p>
           <p class="app-bullet ph3 mv2 overpass-extralight">Work has appeared in <a target="_blank" href="https://www.nytimes.com/2015/09/27/travel/finger-lakes-craft-beer.html">The New York Times</a>, <a target="_blank" href="http://gothamist.com/author/Ben%20Jay">Gothamist</a>,
             <a target="_blank" href="https://theconcourse.deadspin.com/bone-broth-is-hot-ham-water-1693220333">Deadspin</a>, <a target="_blank" href="https://www.ediblebrooklyn.com/2015/salty-road-salt-water-taffy-how-to-make-taffy-navy-yard-candy/">Edible</a>,
             <a target="_blank" href="https://www.seriouseats.com/user/profile/Ben%20Jay">Serious Eats</a>,
@@ -152,32 +172,33 @@
             and <a target="_blank" href="http://www.benjayphoto.com/clips">others</a>.</p>
           <br>
           <p class="ph3 mv2"><strong>City & State New York</strong></p>
-          <p class="ph3 mv2 fr"><em>January 2018 to May 2018</em></p>
-          <p class="app-bullet ph3 mv2 overpass-extralight"><em>Data and Development</em> – Reported on data-oriented political stories in New York City’s and New York State’s governments. Scraped and analyzed government databases. Assisted staffers
+          <p class="ph3 mv2 fr tr"><em>January 2018 to May 2018</em></p>
+          <p class="app-bullet ph3 mv2 overpass-extralight"><em>Data and Development</em> – Reported on data-oriented political stories in New York City’s and New York State’s governments. Scraped and analyzed government databases. Assisted
+            staffers
             with
             data-related story elements.</p>
           <br>
           <p class="ph3 mv2"><strong>Gothamist</strong></p>
-          <p class="ph3 mv2 fr"><em>September 2014 to November 2017</em></p>
+          <p class="ph3 mv2 fr tr"><em>September 2014 to November 2017</em></p>
           <p class="app-bullet ph3 mv2 overpass-extralight"><em>Contributing Writer/Photographer</em> – Wrote, photographed and pitched news stories involving anything affecting life in the five boroughs, ranging from hard news to food, arts and
             events
             coverage. Found and researched leads around the city; attended community board meetings, worked with staff writers and editors.</p>
           <br>
           <p class="ph3 mv2"><strong>The Leonard Lopate Show, WNYC</strong></p>
-          <p class="ph3 mv2 fr"><em>March 2015 to August 2016</em></p>
+          <p class="ph3 mv2 fr tr"><em>March 2015 to August 2016</em></p>
           <p class="app-bullet ph3 mv2 overpass-extralight"><em>Production Assistant</em> – Produced and researched segments, wrote interview preps, vetted and booked guests, screened on-air callers, interfaced with publicists, worked in control
             room during
             live daily radio show.</p>
           <br>
           <p class="ph3 mv2"><strong>CBS Broadcasting</strong></p>
-          <p class="ph3 mv2 fr"><em>August 2012 to May 2013</em></p>
+          <p class="ph3 mv2 fr tr"><em>August 2012 to May 2013</em></p>
           <p class="app-bullet ph3 mv2 overpass-extralight"><em>CBS News National Desk Broadcast Associate, Page</em> – Gathered, researched and disseminated news leads and stories. Assisted producers and engineers with crew and correspondent
             assignments.
             Wrote nightly opposition logs.</p>
         </div>
       </section>
       <section id="contact" class="w-100">
-        <h1 class="overpass-extrabold">Call me</h1>
+        <h1 class="pa3 f1 overpass-extrabold-italic w-100 white mt0 mb1" style="background-color: #0084AF">Contact</h1>
       </section>
     </div>
   </body>
