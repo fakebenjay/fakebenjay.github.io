@@ -52,6 +52,14 @@ p.app-bullet {
     margin-top: 0;
 }
 
+a {
+    color: black;
+}
+
+a:hover {
+    color: #808080;
+}
+
 .proj {
     align-items: center;
     overflow: hidden;
