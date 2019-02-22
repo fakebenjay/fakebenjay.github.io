@@ -91,7 +91,6 @@ a:hover {
 
 .text {
     overflow: hidden;
-    padding-bottom: 1rem;
 }
 
 .kulturista {
@@ -150,7 +149,7 @@ img.social-icons {
     --spacing-extra-extra-extra-large: 16rem;
 }
 
-@media screen and (max-width: 20em) {
+@media screen and (max-height: 500px) {
     .text {
         display: none;
     }
